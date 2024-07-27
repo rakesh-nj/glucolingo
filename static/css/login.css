@@ -1,0 +1,18 @@
+#login_page{
+    top: 0;
+    height: 770px;
+    margin-top: 20px;
+    margin-left: 33%;
+    width: 33%;
+    background-color: antiquewhite;
+    padding: 25px;
+    position: fixed;
+    border-radius: 23px;
+    align-items: center;
+}
+
+
+.login_title{
+    text-align: center;
+    font-size: 30px;
+}
