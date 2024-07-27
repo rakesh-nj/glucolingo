@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quodex - Create Your Quiz</title>
+    <link rel="stylesheet" href={% static "css/home.css" %}>
+</head>
+<body>
+    <header class="header">
+        <h1>Quodex</h1>
+        <p>Create engaging and informative quizzes.</p>
+    </header>
+    <main class="main">
+        <div class="card">
+            <h2>Create a New Quiz</h2>
+            <form action="#">
+                <label for="quiz-title">Quiz Title:</label>
+                <input type="text" id="quiz-title" name="quiz-title" placeholder="Enter your quiz title here" required>
+                <label for="quiz-description">Description (Optional):</label>
+                <textarea id="quiz-description" name="quiz-description" placeholder="Enter a description for your quiz (optional)"></textarea>
+                <button type="submit">Create Quiz</button>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Your Quizzes</h2>
+            <ul>
+                </ul>
+        </div>
+    </main>
+</body>
+</html>
