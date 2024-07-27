@@ -1,0 +1,80 @@
+#signup_page{
+    top: 0;
+    height: 958px;
+    margin-left: 33%;
+    width: 67%;
+    background-color: antiquewhite;
+    padding: 25px;
+    position: fixed;
+    border-radius: 23px 0 0 23px;
+}
+
+
+.signup_title{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.fname_input , .lname_input , .pass_input, .email_input, .re_pass_input{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    font-size: 25px;
+    width: 80%;
+    margin-left: 8%;
+    background-color: antiquewhite;
+}
+
+.fname_input, .pass_input, .re_pass_input, .email_input, .lname_input{
+    margin-top: 20px;
+}
+
+.signup_collection{
+    margin-bottom: 10px;
+    margin-bottom: 5%;
+}
+
+.select_gender{
+    margin-left: 8%;
+    font-size: 25px;
+}
+
+.mclass_in{
+    margin-left: 8%;
+}
+
+.mclass , .fclass , .oclass{
+    font-size: 25px;
+    margin-right: 20%;
+}
+
+.signup_from_login{
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.signup_btn{
+    font-family: emoji;
+    padding: 10px 55px;
+    float: inline-end;
+    margin-right: 43%;
+    font-size: 20px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.sign_to_login{
+    margin-left: 8%;
+    margin-top: 55px;
+    font-size: 22px;
+}
+
+.link_sign_login{
+    text-decoration: none;
+    font-size: 24px;
+}

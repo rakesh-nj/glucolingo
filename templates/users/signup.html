@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/signup.css">
-</head>
-<body>
-    <form method="post">
-        <div id="signup_form">
-            <h2 class="signup_title"> Sign Up </h2>
+    <html>
+    <head>
+        <title>SignUp</title>
+        <link rel = "stylesheet" type="text/css" href="signup.css">
+    </head>
+    <body>
+        <div id="signup_page">
+            <h2 class="signup_title"> SignUp </h2>
+            <br>
+                <form method="post">
+                    <div class="signup_collection">
+                        <input type="text" id="first_name" class="fname_input" placeholder="First Name" required> 
 
+                        <br>
+                        <br>
 
+                        <input type="text" id="last_name" class="lname_input" placeholder="Last Name" required>
+
+                        <br>
+                        <br>
+
+                        <input type="text" id="email" class="email_input" placeholder="E-mail" required>
+
+                        <br>
+                        <br>
+
+                        <input type="text" id="password" class="pass_input" placeholder="Password" required>
+
+                        <br>
+                        <br>
+
+                        <input type="text" id="re_password" class="re_pass_input" placeholder="Confirm Password" required>
+
+                        <br>
+                        <br>
+                        
+                        <p class="select_gender">Select your <b>Gender</b>: </p>
+
+                        <input class="mclass_in" type="radio" id="male" name="gender" value="male">
+                        <label class="mclass" for="male">Male</label>
+
+                        <input class="fclass_in" type="radio" id="female" name="gender" value="female">
+                        <label class="fclass" for="female">Female</label>
+
+                        <input class="oclass_in" type="radio" id="other" name="gender" value="others">
+                        <label class="oclass" for="other">Others</label>
+                    </div>
+
+                    <button type="submit" class="signup_btn"> SignUp </button>
+
+                    <br>
+
+                    <p class="sign_to_login">Already a Member ? <a href="login.html" class="link_sign_login">Login</a></p>
+
+                </form>
         </div>
-
-        <button type="submit">Sign Up</button>
-    </form>
-</body>
+    </body>
 </html>
