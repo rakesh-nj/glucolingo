@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/profile.css' %}">
+    <title>GlucoLingo</title>
+</head>
+<body>
+    <div id="navbar">
+        <div class="overlay">
+            <div class="overlay-content">
+                <p class="menu-username">Rakesh N J's</p>
+                <a href="/" class="menu">To-Do</a>
+                <br>
+                <a href="/" class="menu">Summary</a>
+                <br>
+                <a href="/" class="menu">Chat Bot</a>
+                <br>
+                <a href="/" class="active-menu">Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="profile">
+        <h2 class="profile_title">Profile</h2>
+        <div class="profile_img"></div>
+        <p class="profile_uid">User ID</p>
+        <br>
+        <p class="profile_info">Name:</p>
+        <br>
+        <br>
+        <p class="profile_info">Age:</p>
+        <br>
+        <br>
+        <p class="profile_info">Date of Birth:</p>
+        <br>
+        <br>
+        <p class="profile_info">Phone No:</p>
+        <br>
+        <br>
+        <p class="profile_info">e-mail:</p>
+    </div>
+
+    <div id="med_info">
+        <h2 class="med_info_title">Medical <br> Information</h2>
+        <p class="med_info">Blood Type:</p>
+        <br>
+        <br>
+        <p class="med_info">Diabetes Since:</p>
+        <br>
+        <br>
+        <p class="med_info">Level:</p>
+        <br>
+        <br>
+        <p class="med_info">Emergency contact:</p>
+        <br>
+        <br>
+        <p class="med_info">Insured?</p>
+    </div>
+</body>
+</html>
