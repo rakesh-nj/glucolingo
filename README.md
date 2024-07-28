@@ -1,4 +1,4 @@
-# Contributing to [Your Project Name]
+# Contributing to Glucolingo
 
 Thank you for considering contributing to [Your Project Name]! This guide will help you understand how to get involved, report issues, and submit contributions to the project.
 
