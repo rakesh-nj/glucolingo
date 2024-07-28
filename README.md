@@ -4,24 +4,20 @@ Thank you for considering contributing to [Your Project Name]! This guide will h
 
 ## Table of Contents
 
-1. [Code of Conduct](#code-of-conduct)
-2. [How to Contribute](#how-to-contribute)
+1. [How to Contribute](#how-to-contribute)
    - [Reporting Issues](#reporting-issues)
    - [Suggesting Enhancements](#suggesting-enhancements)
    - [Submitting Code Changes](#submitting-code-changes)
-3. [Development Setup](#development-setup)
+2. [Development Setup](#development-setup)
    - [Fork the Repository](#fork-the-repository)
    - [Setting Up the Environment](#setting-up-the-environment)
    - [Running Tests](#running-tests)
-4. [Coding Guidelines](#coding-guidelines)
-5. [Style Guide](#style-guide)
-6. [Documentation](#documentation)
-7. [Community and Support](#community-and-support)
-8. [License](#license)
+3. [Coding Guidelines](#coding-guidelines)
+4. [Style Guide](#style-guide)
+5. [Documentation](#documentation)
+6. [Community and Support](#community-and-support)
+7. [License](#license)
 
-## Code of Conduct
-
-Please read and follow our [Code of Conduct](link_to_code_of_conduct) to ensure a welcoming and inclusive environment for everyone.
 
 ## How to Contribute
 
