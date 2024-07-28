@@ -3,15 +3,28 @@
     <html>
     <head>
         <title>Login</title>
-        <link rel = "stylesheet" type="text/css" href = "{% static '/css/login.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
     </head>
     <body>
         <div id="login_page">
             <h2 class="login_title"> Login </h2>
+            <br>
                 <form method="post">
+                    <div class="login_collection">
+                        <input type="text" id="username" class="uname_input" placeholder="User Name" required> 
 
+                        <br>
+                        <br>
 
-                    <button type="submit">Login</button>
+                        <input type="text" id="password" class="pass_input" placeholder="Password" required>
+                    </div>
+
+                    <button type="submit" class="login_btn"> Login </button>
+
+                    <div class="forgot_pass">Forgot <a class="pass_reset" href="pass_reset">Password</a></div>
+
+                    <p class="signup_redirection">Not a memeber ? <a class="signup_from_login" href="signup.html"> SignUp </a> </p>
+
                 </form>
         </div>
     </body>
