@@ -1,0 +1,121 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    top: 0;
+    height: 970px;
+    margin-top: 20px;
+    margin-left: 1%;
+    width: 18%;
+    overflow: hidden;
+    background-color: antiquewhite;
+    padding: 0;
+    position: fixed;
+    border-radius: 23px;
+}
+
+div.overlay-content {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 30% 30px 0 10px;
+}
+
+.menu-username{
+    margin: 20px 20px 30px 20px;
+    font-size: 22px;
+    padding: 10px;
+    color: royalblue;
+}
+
+.active-menu{
+    color: orange;
+    display: block;
+    margin: 20px;
+    background-color: dimgrey;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.menu{
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+#profile{
+    height: 970px;
+    width: 45%;
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: 20%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 23px;
+    float: left;
+    display: block;
+}
+
+.profile_title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile_img{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+.profile_uid{
+    font-size: 18px;
+    text-align: center;
+}
+
+.profile_info{
+    font-size: 23px;
+    margin: 0 75px;
+    padding: 20px 10px 20px 10px;
+    background-color: grey;
+    border-radius: 12px;
+}
+
+#med_info{
+    width: 33%;
+    height: 970px;
+    float: left;
+    display: block;
+    background-color: chocolate;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 23px;
+}
+
+.med_info_title{
+    margin-top: 20%;
+    margin-bottom: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.med_info{
+    font-size: 23px;
+    margin: 0 75px;
+    padding: 20px 10px 20px 10px;
+    background-color: grey;
+    border-radius: 12px;
+}
